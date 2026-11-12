@@ -1,0 +1,42 @@
+{
+  "name": "sheet-desk",
+  "version": "1.0.0",
+  "description": "Sheet Desk — browser-based batch processing for Excel and CSV files",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "SEE LICENSE NOTE IN README",
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "hyperformula": "3.5.0",
+    "jspdf": "4.2.1",
+    "jspdf-autotable": "5.0.9",
+    "jszip": "3.10.1",
+    "papaparse": "5.5.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/papaparse": "5.3.16",
+    "@types/react": "18.3.23",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "6.3.0",
+    "typescript": "5.8.3",
+    "vite": "8.3.8",
+    "vitest": "5.1.0"
+  },
+  "private": true,
+  "type": "module",
+  "overrides": {
+    "uuid": "11.1.1"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
